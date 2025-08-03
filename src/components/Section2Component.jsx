@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "react-dom";
+import FormComponent from "../components/FormComponent";
 
 function Section2Component() {
   return (
@@ -25,6 +26,7 @@ function Section2Component() {
           </p>
         </p>
       </section>
+      <FormComponent />
     </div>
   );
 }
