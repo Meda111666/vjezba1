@@ -7,7 +7,12 @@ body {
   color: #333;
 }
 .about {
-  background-image: url(".//assets/webbb.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    url(".//assets/webbb.jpg");
 
   background-repeat: no-repeat;
+}
+
+.active {
+  @apply text-green-200  text-2xl;
 }

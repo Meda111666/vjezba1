@@ -1,21 +1,15 @@
-import Footer from "./components/Footer";
-import HeaderComponent from "./components/HeaderComponent";
-import Section2Component from "./components/Section2Component";
-import SectionComponent from "./components/SectionComponent";
+import NavbarComponent from "./components/NavbarComponent";
 import "./index.css";
+import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/HomePage";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <div>
-        <HeaderComponent
-          title="Dobrodošli na Moju Prezentaciju"
-          subtitle="Predstavljam se u najboljem svjetlu!"
-        />
-        <SectionComponent />
-        <Section2Component />
-
-        <Footer />
+        <NavbarComponent />
+        <Outlet />
       </div>
     </>
   );

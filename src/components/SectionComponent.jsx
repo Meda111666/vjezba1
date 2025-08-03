@@ -18,7 +18,7 @@ function SectionComponent() {
       {/* sekcija1 */}
       <section className="w-[90%]  lg:w-[90%] about flex items-center mx-auto justify-center lg:border-8 lg:border-[#eee] p-[5px] lg:p-[20px] gap-[10px] lg:gap-[20px] rounded-[20px]  drop-shadow-xl/25 overflow-hidden bg-[100%] lg:bg-cover">
         <div className="w-[50%] h-[50%] flex flex-col items-center  justify-between gap-[20px] ">
-          <p className="bg-black text-center text-[18px] lg:text-[22px] p-[10px] text-white italic drop-shadow-xl/25 overflow-hidden ">
+          <p className=" text-center text-[18px] lg:text-[22px] p-[10px] text-white italic drop-shadow-xl/25 overflow-hidden ">
             Ja sam strastveni web developer sa fokusom na React i modernim web
             tehnologijama.
           </p>
